@@ -1,0 +1,17 @@
+
+b{
+color:rgb(91, 4, 4, 0.5);
+}
+
+div{
+    width: 200%;
+    max-width: 200px;
+    height: 200%;
+    background-color: lightblue;
+    border: 2px solid black;
+
+    font-size: 12px;
+    font-weight: 300;
+    font-family: roboto;
+
+}
