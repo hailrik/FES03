@@ -1,19 +1,7 @@
-
-section{
-    height: 80vh;
-    border: 1px solid black;
-}
-p{
-    color: blue;
-}
-.red{
-    color: red;
-}
-
-#title {
-    color: blue;
-}
-
-#title.heading.red {
-color: green;
+.box{
+     width: 100%;
+     border: 1px solid black ;
+     margin: 15px 0px 0px 0px;
+     padding: 50px 15px 50px 20px;
+     box-sizing: border-box;
 }
