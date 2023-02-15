@@ -1,17 +1,19 @@
 
-b{
-color:rgb(91, 4, 4, 0.5);
+section{
+    height: 80vh;
+    border: 1px solid black;
+}
+p{
+    color: blue;
+}
+.red{
+    color: red;
 }
 
-div{
-    width: 200%;
-    max-width: 200px;
-    height: 200%;
-    background-color: lightblue;
-    border: 2px solid black;
+#title {
+    color: blue;
+}
 
-    font-size: 12px;
-    font-weight: 300;
-    font-family: roboto;
-
+#title.heading.red {
+color: green;
 }
