@@ -1,20 +1,26 @@
-div {
-  height: 200px;
-  border: 2px solid black;
+div{
+    transition: background-color 300ms;
 }
 
-.red {
-  background-color: red;
-  position: relative;
-  width: 100%;
-  box-sizing: border-box;
+div:hover{
+background-color: rgba(0, 0, 0, 0.1)
 }
 
-.child {
-    background-color: blue;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+button{
+    animation: float 2000ms infinite alternate-reverse;
+    transition: all 300ms;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+} 
+
+@keyframes float {
+0% {
+ transform: translateY(0px)
+}
+100%{
+transform: translateY(10px);
+}
 }
